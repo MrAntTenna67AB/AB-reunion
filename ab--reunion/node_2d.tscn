@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://co4pfxw5riw4n"]
+
+[ext_resource type="Texture2D" uid="uid://b6ybc35mx5phb" path="res://ground top.png" id="1_wtcfe"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0e48y"]
+texture = ExtResource("1_wtcfe")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_epypp"]
+tile_size = Vector2i(32, 32)
+sources/0 = SubResource("TileSetAtlasSource_0e48y")
+
+[node name="Node2D" type="Node2D" unique_id=967973902]
+
+[node name="TileMap" type="TileMap" parent="." unique_id=801360650]
+position = Vector2(794.30164, 525.67413)
+tile_set = SubResource("TileSet_epypp")
+format = 2
+layer_0/tile_data = PackedInt32Array(196603, 0, 0, 196604, 0, 0, 196605, 0, 0, 196606, 0, 0, 196607, 0, 0, 131072, 0, 0, 131073, 0, 0, 131074, 0, 0, 131075, 0, 0, 131076, 0, 0, 131077, 0, 0, 131078, 0, 0)
